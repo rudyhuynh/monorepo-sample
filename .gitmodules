@@ -1,0 +1,9 @@
+[submodule "node-server"]
+	path = node-server
+	url = git@github.com:rudyhuynh/node-server.git
+[submodule "packages/--force"]
+	path = packages/--force
+	url = git@github.com:rudyhuynh/use-url-search-params.git
+[submodule "packages/use-url-search-params"]
+	path = packages/use-url-search-params
+	url = git@github.com:rudyhuynh/use-url-search-params.git

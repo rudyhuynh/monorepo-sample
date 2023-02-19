@@ -1,0 +1,16 @@
+{
+  "name": "@rd/inputs",
+  "version": "0.0.3",
+  "description": "",
+  "main": "src/Input.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rd/button": "0.0.3",
+    "react-select": "^5.7.0"
+  }
+}

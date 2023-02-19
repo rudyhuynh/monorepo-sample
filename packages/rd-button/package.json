@@ -1,0 +1,15 @@
+{
+  "name": "@rd/button",
+  "version": "0.0.3",
+  "description": "",
+  "main": "src/Button.tsx",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

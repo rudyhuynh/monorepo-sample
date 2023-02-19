@@ -1,0 +1,11 @@
+{
+  "name": "monorepo-sample",
+  "workspaces": [
+    "web-ui",
+    "node-server",
+    "packages/*"
+  ],
+  "scripts": {
+    "upgrade-latest": "npx npm-check-updates --workspaces --interactive --target=latest"
+  }
+}

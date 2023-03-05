@@ -1,0 +1,6 @@
+[submodule "node-server"]
+	path = node-server
+	url = git@github.com:rudyhuynh/node-server.git
+[submodule "packages/use-interval-time"]
+	path = packages/use-interval-time
+	url = git@github.com:rudyhuynh/use-interval-time.git

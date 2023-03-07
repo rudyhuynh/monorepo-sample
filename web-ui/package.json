@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@rd/button": "^1.0.0",
-    "@rd/input": "^1.0.0",
+    "@rd/button": "*",
+    "@rd/input": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

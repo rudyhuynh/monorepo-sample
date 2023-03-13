@@ -1,6 +1,6 @@
 {
   "name": "@rd/common-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@rd/utils": "^1.0.0"
+    "@rd/utils": "1.0.1"
   }
 }

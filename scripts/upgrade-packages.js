@@ -38,3 +38,10 @@ workspaces
   });
 
 execSync("npm install");
+
+// publish
+workspaces
+  .filter(({ name }) => name.startsWith("@rd/"))
+  .forEach((workspace) => {
+    execSync(`npm publish --workspace ${workspace.name}`);
+  });

@@ -4,11 +4,15 @@ const { execSync } = require("child_process");
 
 const workspaces = JSON.parse(execSync(`npm query .workspace`).toString());
 
+const versionInput = [...process.argv][2];
+
 workspaces
   .filter(({ name }) => name.startsWith("@rd/"))
   .forEach((workspace) => {
     const newVersion = execSync(
-      `npm version patch --workspace ${workspace.name} --no-workspaces-update`
+      `npm version ${versionInput ? versionInput : "patch"} --workspace ${
+        workspace.name
+      } --no-workspaces-update`
     )
       .toString()
       .split("\n")[1]

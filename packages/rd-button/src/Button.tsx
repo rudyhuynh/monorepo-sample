@@ -1,1 +1,6 @@
-export const Button = (props) => <button {...props}>This an button 123</button>;
+type ButtonPropsType = {
+  // TODO -
+};
+export const Button = (props: ButtonPropsType) => (
+  <button {...props}>This a button 123</button>
+);
